@@ -1,3 +1,4 @@
 function saludo() {
-    alert('Hola usuario');
+    let nombre = prompt('¿Cómo te llamas?');
+    alert(`Hola ${nombre}`);
 }
